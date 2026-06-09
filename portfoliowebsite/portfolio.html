@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioWebsite</title>
+    <link rel="stylesheet" href="portfolio.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div id="header1">
+           
+            <div class="container">  
+                <nav>
+                    <header><span id="s">S</span>anjay.</header>
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Service</a></li>
+                            <li><a href="#portfolio">portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                         </ul>
+                         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Front-End Developer</p>
+                    <h1>Hi, I'm <span id="san">Sanjay</span><br>Medidi From AndhraPradesh.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/imgg3.jpg" width="350px" height="450px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Sanjay Medidi, a B.Tech graduate in Computer Science and Engineering with a strong passion for web development. As a fresher, I’ve already gained hands-on experience through internships at Virtunexa as a Front-End Developer and at EazyBytes as a Full Stack Developer. I’ve worked on a range of projects, including developing an Online Auction System using the Java Full Stack. I enjoy creating clean, user-friendly websites and applications, and I'm always eager to learn new technologies. My goal is to grow into a skilled Web Designer or Full Stack Developer, contributing to meaningful and innovative digital solutions.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills',event)">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience',event)">Internship Experience</div>
+                        <div class="tab-links" onclick="opentab('education',event)">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML, CSS & Bootstrap</span><br>Creating visually appealing and user-friendly interfaces using HTML,CSS and Bootstrap.</li>
+                            <li><span>JavaScript & React.js (Basic)</span><br>Creating interactive web pages and developing component-based user interfaces. </li>
+                            <li><span> MySQL Basics</span><br> Writing queries, managing databases, and performing basic CRUD operations.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan 2025 - Feb 2025 &#128073;</span><span id="EazyBytes">VirtuNexa</span><br>developed a user-friendly web-site by using Front-End.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.Tech from Swarnandhra College Of Engineering And Technology.</li>
+                            <li><span>2019-2021</span><br>Aditya Junior College.</li>
+                            <li><span>2018-2019</span><br>Sunshine EM high School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- --------services---------- -->
+     <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Skills</h2>
+            <div class="services-list">
+                <div>
+                    
+                    <h2>HTML, CSS & Bootstrap</h2>
+                    <p>Building responsive, user-friendly, and visually appealing websites using HTML5, CSS3, and Bootstrap.</p>
+                    <a href="#">LearnMore</a>
+                </div>
+                <div>
+                    
+                    <h2>JavaScript & React.js</h2>
+                    <p>Creating interactive web applications using JavaScript and developing component-based user interfaces with React.js.</p>
+                    <a href="#">LearnMore</a>
+                </div>
+                <div>
+                    <h2>MySQL Database</h2>
+                    <p>Managing databases, writing queries, and performing CRUD operations using SQL.</p>
+                    <a href="#">LearnMore</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--------------- portfolio-------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/imgg7.png" height="300px">
+                    <div class="layer">
+                        <h3>Online Auction System</h3>
+                        <p>Developed a dynamic web application using Java Full Stack that allows users to post, bid on, and manage auction items. Integrated backend logic with SQL for secure data handling and implemented user authentication for a smooth and safe bidding experience.</p>
+                        <a href="https://github.com/sanjaymedidi/OnlineAuctionSystem">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/imgg5.jpg" height="300px">
+                    <div class="layer">
+                        <h3>Fruits & Vegetables Website</h3>
+                        <p> Developed a responsive Fruits & Vegetables website using HTML, CSS, and JavaScript. 
+            Designed an attractive user interface to showcase fresh produce, implemented interactive 
+            features, and ensured a seamless user experience across different devices.</p>
+                        <a href="https://github.com/sanjaymedidi/fruit-and-vegetables-site">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/imgg6.png" height="300px" style="width: 100%;">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, education, and internship experience. Implemented a responsive design, interactive navigation menu, and contact form for a professional user experience.</p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!-- --------------contact------------------- -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>charnsivasanjaymedidi@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6300862619</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/sanjaymedidi"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sivasanjay/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"></a>
+                    </div>
+                    <a href="images/SanjayMedidiResume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i>Sanjay. Made with by <i class="fa-solid fa-heart" id="copy"></i> Sanjay</p>
+        </div>
+       </div>
+    <script src="portfolio.js">
+        
+    </script>
+</body>
+</html>
